@@ -1,0 +1,105 @@
+@import url(https://fonts.google.com/specimen/Young+Serif);
+@import url(https://fonts.google.com/specimen/Outfit);
+body{
+    font-family:"outfit",sans-serif;
+    font-weight:400;
+    line-height:1;
+}
+.preparation{
+    background-color:hsl(330,100%,98%);
+    width:50%;
+    height:140px;
+    padding:20px;
+    margin:4px;
+    border:10px;
+    border-radius:30px;
+}
+.ingredients{
+    font-family:"Young serif", serif;
+    font-size: 18px;
+    font-weight:400;
+}
+.instructions{
+    font-family:"Young serif", serif;
+    font-size:18px;
+    font-weight:400;
+}
+.nutrition{
+    font-family:"Young serif", serif;
+    font-size:18px;
+    font-weight:400;
+    color: hsl(14, 45%, 36%);
+}
+.preparation-body-list{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+    list-style: none;
+    padding-left:4px;
+    color:wenge brown;
+}
+.preparation-list::marker{
+    color:hsl(332,51%,32%);
+}
+.preparation-body{
+    color: hsl(332, 51%, 32%);
+
+}
+.ingredients{
+    color: hsl(14, 45%, 36%);
+    font-size:18px;
+}
+.ingredients-body-list{
+    display:flex;
+    flex-direction:column;
+    list-style: circle;
+    color:wenge brown;
+}
+.ingredients-list::marker{
+    color:hsl(14,45%,36%);
+}
+.instructions{
+    color: hsl(14, 45%, 36%);
+    font-size: 18px;
+}
+.instruction-body-list::marker{
+    color: hsl(14, 45%, 36%);
+}
+.nutrition-body{
+    color:brown;
+}
+.four{
+    color: hsl(14, 45%, 36%);
+}
+.three{
+    color:hsl(14, 45%, 36%);
+}
+.two{
+    color:hsl(14, 45%, 36%);
+}
+.one{
+    color:hsl(14, 45%, 36%);
+}
+.imagetitle{
+    font-family:"Young serif", serif;
+}
+@media (max-width:400px) {
+    .omelette{
+        width:300px;
+    }
+}
+.omelette{
+    background-color:hsl(0, 0%, 100%);
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: fit-content;
+    margin: 100px auto;
+}
+.container{
+    display:flex;
+    background-color: hsl(30, 54%, 90%);
+}
